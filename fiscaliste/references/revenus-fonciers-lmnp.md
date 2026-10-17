@@ -77,7 +77,19 @@ Au-delà des plafonds : régime réel obligatoire.
 - Mobilier : 10-20%/an sur 5-10 ans
 - Gros travaux : amortissables sur leur durée d'usage
 
-**Résultat fiscal** : souvent nul ou déficitaire grâce aux amortissements → pas d'IR sur les loyers pendant des années.
+**Résultat fiscal** : souvent nul ou déficitaire grâce aux amortissements → pas d'IR sur les loyers pendant des années. Cette économie est en partie reprise à la revente (voir « Cession d'un bien LMNP »).
+
+### Cession d'un bien LMNP
+
+Voir `data/plus-values-immo-abattements.json` → `reintegration_amortissements_lmnp`.
+
+Pour les **cessions réalisées depuis le 15/02/2025**, le prix d'acquisition retenu pour la plus-value des particuliers est **minoré des amortissements déduits** au titre de la location meublée (art. 39 C CGI). Base légale : art. 150 VB CGI, modifié par l'art. 84 de la LF 2025 (loi n° 2025-127).
+
+- La règle s'applique **quelle que soit la date de mise en location** : les amortissements déduits avant 2025 sont aussi réintégrés (réponse ministérielle QE n° 10097, JOAN 24/03/2026).
+- Exceptions : logements dans des résidences services pour étudiants ou pour personnes âgées, et établissements pour personnes âgées dépendantes.
+- La plus-value reste celle des particuliers (19 % + PS, abattements pour durée de détention) : seule l'assiette augmente.
+
+**Rappel au contribuable** : comparer micro-BIC et réel en intégrant le coût de cette réintégration si une revente est envisagée.
 
 **Déficit LMNP** : NON imputable sur le revenu global (contrairement au LMP). Reportable sur les BIC meublés des **10 années suivantes**.
 

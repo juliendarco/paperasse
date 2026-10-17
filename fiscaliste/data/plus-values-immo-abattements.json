@@ -55,5 +55,16 @@
     "seuil_declenchement": 50000,
     "taux_progressif": "2% à 6% selon le montant de la PV imposable (après abattements)",
     "application": "Cumulative avec IR + PS"
+  },
+  "reintegration_amortissements_lmnp": {
+    "applicable_cessions_depuis": "2025-02-15",
+    "regle": "Le prix d'acquisition est minoré des amortissements déduits en location meublée non professionnelle (art. 39 C CGI), y compris ceux déduits avant 2025, quelle que soit la date de mise en location.",
+    "exceptions": [
+      "Résidences services pour étudiants",
+      "Résidences services pour personnes âgées",
+      "Établissements pour personnes âgées dépendantes"
+    ],
+    "base_legale": "Art. 150 VB CGI, modifié par l'art. 84 de la LF 2025 (loi n° 2025-127)",
+    "source": "Réponse ministérielle QE n° 10097, JOAN 24/03/2026"
   }
 }
