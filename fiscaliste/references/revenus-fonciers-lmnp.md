@@ -126,7 +126,7 @@ Voir `data/regimes-fonciers-lmnp.json` → `sci_ir`.
 |--------|-----------|
 | Micro-foncier | 2042 case 4BE |
 | Régime réel foncier | 2044 (ou 2044 spéciale) |
-| Micro-BIC LMNP | 2042 C-PRO (cases 5ND, 5NG, etc.) |
+| Micro-BIC LMNP | 2042 C-PRO : 5NI (longue durée), 5NH (tourisme non classé), 5NG (tourisme classé, chambres d'hôtes) ; 5OI/5OH/5OG pour le déclarant 2 |
 | Réel LMNP / LMP | 2031 + 2033 (liasse BIC) + 2042 C-PRO |
 | SCI IR | Déclaration 2072 (SCI) + report sur 2044 (associés) |
 

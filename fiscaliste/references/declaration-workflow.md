@@ -83,10 +83,12 @@ Voir [foyer.example.json](../foyer.example.json) pour la structure. Champs criti
 | Allocations chômage | 1AP / 1BP | — |
 | Indemnités maladie | 1AM / 1BM | — |
 | BNC régime normal | 5QC / 5RC | 2035 |
-| Micro-BNC | 5HQ / 5IQ | — |
+| Micro-BNC | 5HQ / 5IQ (professionnel) ; 5KU / 5LU (non professionnel) | — |
 | Revenus fonciers réels | 4BA | **2044** |
 | Micro-foncier (nu) | 4BE | — |
-| LMNP micro-BIC longue durée | 5ND / 5OD | — |
+| LMNP micro-BIC longue durée | 5NI / 5OI | — |
+| LMNP micro-BIC meublé de tourisme non classé | 5NH / 5OH | — |
+| LMNP micro-BIC meublé de tourisme classé, chambres d'hôtes | 5NG / 5OG | — |
 | LMNP réel | 5NA / 5OA | **2031 + 2033-A à D** |
 | Dividendes (PFU ou barème) | 2DC | — |
 | Intérêts / produits de placement | 2TR | — |
