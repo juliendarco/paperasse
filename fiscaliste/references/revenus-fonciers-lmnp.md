@@ -44,9 +44,12 @@ Voir `data/regimes-fonciers-lmnp.json` → `regime_reel_foncier.deficit_foncier`
 
 **Mécanisme** :
 - Charges > recettes → déficit
-- **Imputable sur le revenu global dans la limite de 10 700 €** par an (ou 21 400 € pour travaux de rénovation énergétique globale — dispositif temporaire)
+- **Ordre d'imputation** : les loyers bruts compensent **d'abord les intérêts d'emprunt**, puis les autres charges (BOI-RFPI-BASE-30-20 § 110). Seul l'excédent d'intérêts sur les loyers est cantonné aux revenus fonciers ; tant que les loyers couvrent les intérêts, tout le déficit provient des autres charges.
+- **Imputable sur le revenu global dans la limite de 10 700 €** par an. Plafond porté à **21 400 €** pour les dépenses de rénovation énergétique qui font passer un logement d'une classe E, F ou G à une classe A à D, payées jusqu'au 31/12/2027 (prorogation par la LF 2026)
 - Au-delà : reportable sur les revenus fonciers des **10 années suivantes**
-- **Exception critique** : les intérêts d'emprunt **ne sont JAMAIS imputables sur le revenu global**, uniquement sur les revenus fonciers
+- **Exception critique** : la part du déficit qui provient de l'excédent des intérêts d'emprunt sur les loyers **n'est JAMAIS imputable sur le revenu global**, uniquement sur les revenus fonciers
+
+**Exemple** : loyers 15 000 €, charges 4 000 €, travaux 18 000 €, intérêts 6 000 € → déficit 13 000 €. Les loyers (15 000 €) couvrent les intérêts (6 000 €) : tout le déficit vient des autres charges. 10 700 € s'imputent sur le revenu global, 2 300 € se reportent sur les revenus fonciers des 10 années suivantes.
 
 **Stratégie d'optimisation** :
 - Concentrer les travaux importants sur une année → déficit imputable sur revenu global
