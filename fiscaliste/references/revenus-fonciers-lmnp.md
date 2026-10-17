@@ -29,7 +29,7 @@ Voir `data/regimes-fonciers-lmnp.json` → `micro_foncier`.
 Obligatoire au-delà de 15 000 € bruts ou sur option irrévocable pour 3 ans.
 
 **Charges déductibles** :
-- Intérêts d'emprunt (imputables uniquement sur les revenus fonciers)
+- Intérêts d'emprunt (compensés en priorité par les loyers ; seul leur excédent sur les loyers est cantonné aux revenus fonciers)
 - Travaux d'entretien, réparation, amélioration (pas construction, pas agrandissement)
 - Taxe foncière (hors TEOM récupérable)
 - Primes d'assurance (PNO, GLI)
