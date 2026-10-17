@@ -30,7 +30,7 @@ Impôt annuel sur le patrimoine **immobilier net** du foyer fiscal au **1er janv
 | LMP | Exonéré comme bien professionnel sous conditions de recettes et de revenus |
 | Location longue durée bail rural | Exonération partielle sous conditions |
 
-**Conditions "biens professionnels"** (article 885 O bis CGI) :
+**Conditions "biens professionnels"** (art. 975 CGI) :
 - Fonction de direction effective
 - Rémunération > 50% des revenus professionnels du foyer
 - Détention > seuil minimum de participation
@@ -41,17 +41,17 @@ Impôt annuel sur le patrimoine **immobilier net** du foyer fiscal au **1er janv
 
 - Emprunts immobiliers (capital restant dû au 1er janvier)
 - Dettes liées à travaux sur immeubles taxables
-- Impôts afférents à l'immobilier : taxe foncière, IFI N-1, droits de succession/donation
+- Impôts afférents à l'immobilier : taxe foncière, taxe sur les locaux vacants…, et l'**IFI théorique** de l'année (pas l'IFI N-1), droits de succession/donation
 
 ### Dettes NON déductibles
 
 - Dettes personnelles non liées à l'immobilier
 - Emprunts in fine → **amortissement fictif** appliqué (déduction limitée selon un calendrier théorique)
-- Emprunts familiaux sans formalisme (acte non enregistré, pas d'intérêt réel) — article 885 T bis CGI
+- Prêts familiaux : non déductibles (art. 974 II CGI)
 
 ### Plafonnement du passif
 
-Si le passif total dépasse 60% de la valeur des biens ET > 5 M€, la fraction au-delà n'est déductible qu'à hauteur de 50%.
+Si la **valeur vénale du patrimoine taxable** dépasse 5 M€ **et** que les dettes dépassent 60 % de cette valeur, la fraction des dettes au-delà de ce seuil de 60 % n'est déductible qu'à hauteur de 50 % (art. 974 IV CGI). Exemple : patrimoine taxable de 6 M€, dettes de 4 M€ → 3,6 M€ déductibles en totalité + 50 % × 0,4 M€ = 3,8 M€.
 
 ## Calcul du barème
 
@@ -96,10 +96,11 @@ Valeur des parts × fraction immobilière. Possible décote pour illiquidité.
 
 ### Biens démembrés
 
-- **Usufruit** : valeur pleine propriété × quote-part de l'usufruit selon barème fiscal (article 669 CGI)
-- **Nue-propriété** : pas d'IFI (sauf cas spécifiques : donation avec réserve d'usufruit, nue-propriété issue de démembrement fiscal → règles particulières)
-
-**Exception art. 885 G CGI** : dans certains cas (démembrement volontaire ultérieur), l'usufruitier et le nu-propriétaire sont chacun imposables à hauteur de leur quote-part.
+- **Principe (art. 968 CGI)** : l'**usufruitier déclare la valeur en pleine propriété** du bien, quelle que soit la date du démembrement ; le nu-propriétaire ne déclare rien. Pas d'abattement pour démembrement.
+- **Exceptions limitatives (art. 968, 1° à 3°)** — imposition répartie entre usufruitier et nu-propriétaire selon le barème de l'art. 669 :
+  1. usufruit **légal** (conjoint survivant, art. 757 C. civ. ; ascendant). L'usufruit **conventionnel** (art. 1094-1 C. civ., donation entre époux) reste imposé en pleine propriété chez l'usufruitier ;
+  2. **vente** de la nue-propriété avec réserve d'usufruit, si l'acquéreur n'est pas une personne visée à l'art. 751 CGI ;
+  3. **donation ou legs** de la nue-propriété avec réserve d'usufruit à l'État, aux collectivités ou à certains organismes d'intérêt général.
 
 ## Déclaration
 
@@ -130,7 +131,7 @@ Valeur des parts × fraction immobilière. Possible décote pour illiquidité.
 - Manquement délibéré : majoration 40%
 - Manœuvres frauduleuses : majoration 80%
 
-**Délai de reprise** : 6 ans pour l'IFI (contre 3 ans pour l'IR dans certains cas).
+**Délai de reprise** : jusqu'au 31/12 de la **3e année** suivant celle de l'imposition lorsque la déclaration a été déposée et révèle suffisamment l'exigibilité (art. L 180 LPF) ; **6 ans** sinon, notamment en cas de défaut de déclaration (art. L 186 LPF).
 
 ## Références CGI / BOFiP
 

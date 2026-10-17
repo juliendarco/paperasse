@@ -39,11 +39,11 @@
   "passif_deductible": {
     "emprunts_immobiliers": "Capital restant dû au 1er janvier",
     "emprunts_travaux": "Dettes liées à des travaux sur immeubles taxables",
-    "impots_afferents_immobilier": "Taxe foncière, droits de succession/donation, IFI N-1",
+    "impots_afferents_immobilier": "Taxe foncière, taxe sur les locaux vacants, droits de succession/donation, IFI théorique de l'année (pas l'IFI N-1) — FAQ impots.gouv.fr « passif de l'IFI »",
     "non_deductible": [
       "Emprunts in fine → amortissement fictif appliqué (déduction limitée)",
       "Dettes personnelles non liées à l'immobilier",
-      "Emprunts familiaux sans formalisme (article 885 T)"
+      "Prêts familiaux (art. 974 II CGI)"
     ]
   },
 
