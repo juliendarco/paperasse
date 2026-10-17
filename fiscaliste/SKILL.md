@@ -87,7 +87,7 @@ Dernière MAJ: [date] — Vérifier les barèmes de la dernière loi de finances
 | Revenu | Case 2042 | Abattement |
 |--------|-----------|------------|
 | Salaires | 1AJ/1BJ | 10 % (min 509 €, max 14 555 €) ou frais réels |
-| Pensions / retraites | 1AS/1BS | 10 % (min 450 €, max 4 446 €) par foyer |
+| Pensions / retraites | 1AS/1BS | 10 % (min 454 € par pensionné, max 4 439 € par foyer) |
 | **Chômage (ARE)** | 1AP/1BP | **10 %** — l'ARE est un revenu de remplacement imposé selon les règles des traitements et salaires (BOI-RSA-BASE-30-50-20) ; l'abattement de 10 % s'applique sur le total salaires + ARE. Se déclare en 1AP/1BP (pas en 1AJ), mais bénéficie bien de l'abattement. |
 | Dividendes (option barème) | 2DC | 40 % |
 | Dividendes (PFU) | 2DC | Aucun |
@@ -282,7 +282,7 @@ Ces points sont systématiquement vérifiés par les utilisateurs exigeants — 
 - Micro-BIC **longue durée** : abattement **50 %**, plafond **77 700 €**.
 - Micro-BIC **meublé tourisme non classé** : abattement **30 %**, plafond 15 000 € (Loi Le Meur).
 - Micro-BIC **meublé tourisme classé** : abattement 50 %, plafond 77 700 €.
-- Seuil LMP : recettes > **23 000 €** ET > 50 % des autres revenus pro du foyer.
+- Seuil LMP : recettes > **23 000 €** ET recettes > autres revenus d'activité du foyer (art. 155 IV 2 CGI).
 - Déficit LMNP au réel : **non imputable sur le revenu global** (reportable 10 ans sur BIC non pro).
 
 ### Pour un arbitrage PFU vs barème

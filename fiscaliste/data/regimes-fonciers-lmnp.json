@@ -69,7 +69,7 @@
     "description": "Bascule en LMP (Loueur Meublé Professionnel)",
     "seuils_cumulatifs": {
       "seuil_recettes": 23000,
-      "condition_revenus": "ET recettes meublées > 50% des autres revenus professionnels du foyer (salaires, BNC, BIC, revenus dirigeants)",
+      "condition_revenus": "ET recettes meublées > montant des autres revenus d'activité du foyer (traitements et salaires, BIC, BNC, BA, rémunérations art. 62) — art. 155 IV 2 CGI",
       "note": "Les DEUX conditions doivent être remplies. Seuil 23 000 € non renouvelable — application dès dépassement."
     },
     "consequences_lmp": {

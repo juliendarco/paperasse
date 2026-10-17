@@ -87,7 +87,7 @@ Voir `data/regimes-fonciers-lmnp.json` → `lmp_vs_lmnp`.
 
 **Conditions LMP (cumulatives)** :
 1. Recettes meublées > 23 000 €
-2. ET recettes meublées > 50% des autres revenus professionnels du foyer (salaires + BNC + BIC + rémunérations dirigeant)
+2. ET recettes meublées > montant des autres revenus d'activité du foyer (salaires + BNC + BIC + BA + rémunérations de dirigeant) — art. 155 IV 2 CGI
 
 **Conséquences LMP** :
 - Déficits imputables sur le revenu global

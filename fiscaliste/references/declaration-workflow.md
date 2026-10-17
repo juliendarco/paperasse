@@ -152,7 +152,7 @@ Le réel est avantageux dès que charges réelles > 30 % des loyers (crédit imm
 
 Au **réel**, l'amortissement du bien (hors terrain, sur ~25-30 ans) rend souvent le résultat nul ou déficitaire. Le déficit LMNP est **non imputable sur le revenu global** (reportable 10 ans sur BIC non pro uniquement).
 
-**Bascule LMP** : si recettes > 23 000 € ET > 50 % des autres revenus pro du foyer → statut LMP (régime différent, exonération IFI possible, cotisations sociales SSI).
+**Bascule LMP** : si recettes > 23 000 € ET recettes > autres revenus d'activité du foyer → statut LMP (régime différent, exonération IFI possible, cotisations sociales SSI).
 
 ### Étape 6 : Mobilisation du PER
 
