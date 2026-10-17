@@ -23,6 +23,7 @@ Voir `data/regimes-fonciers-lmnp.json` → `micro_foncier`.
 - **Exclusions** : SCI, monuments historiques, Pinel, Borloo, Malraux, etc.
 - **Avantage** : simplicité. Pas de comptabilité.
 - **Inconvénient** : aucun déficit possible. Si vos charges réelles > 30%, vous payez trop d'impôt.
+- **Déficits antérieurs (réel)** : ceux encore reportables au 1er janvier de la 1re année micro restent imputables sur le revenu net micro-foncier (droit commun, 10 ans). Case **4BD**. Source : BOI-RFPI-DECLA-10 § 170 ; brochure IR 2026 p. 158.
 
 ### Régime réel
 
@@ -68,6 +69,10 @@ Voir `data/regimes-fonciers-lmnp.json` → `micro_bic_lmnp`.
 
 Au-delà des plafonds : régime réel obligatoire.
 
+**Déficits LMNP antérieurs (constatés au réel)** : le micro-BIC ne crée jamais de déficit, mais les déficits LMNP des 10 années précédentes non encore imputés (cases **5GA à 5GJ**) s'imputent sur le résultat micro-BIC net (recettes − abattement), comme en micro-foncier. Imputation limitée au revenu LMNP net de l'année (pas de déficit créé, rien sur le revenu global), les plus anciens d'abord.
+- Fondement : art. 156-I-1° ter CGI (imputation sur « les revenus provenant d'une telle activité », sans distinction de régime) ; BOI-BIC-CHAMP-40-20 § 250. La calculette officielle DGFiP (`ir-calcul`, chap-85 : `DNPLOCIMPU = min(déficits 5GA-5GJ, BIC LMNP réel + micro net)`) applique bien ces déficits au résultat micro.
+- Nuance : aucun § BOFiP ne nomme expressément le micro-BIC (contrairement au micro-foncier, BOI-RFPI-DECLA-10 § 170).
+
 ### Régime réel LMNP
 
 **Principe** : résultat BIC = recettes − charges − **amortissements**.
@@ -79,7 +84,7 @@ Au-delà des plafonds : régime réel obligatoire.
 
 **Résultat fiscal** : souvent nul ou déficitaire grâce aux amortissements → pas d'IR sur les loyers pendant des années.
 
-**Déficit LMNP** : NON imputable sur le revenu global (contrairement au LMP). Reportable sur les BIC meublés des **10 années suivantes**.
+**Déficit LMNP** : NON imputable sur le revenu global (contrairement au LMP). Reportable sur les revenus LMNP (réel **ou micro-BIC**) des **10 années suivantes**, tant que l'activité reste non professionnelle (art. 156-I-1° ter CGI ; BOI-BIC-CHAMP-40-20 § 240-250). Report : cases 5GA à 5GJ de la 2042 C-PRO.
 
 ### Bascule LMP vs LMNP
 
@@ -133,7 +138,8 @@ Voir `data/regimes-fonciers-lmnp.json` → `sci_ir`.
 ## Références CGI / BOFiP
 
 - Revenus fonciers : art. 14 à 33 quater CGI
-- Déficit foncier : art. 156-I-3° CGI
+- Déficit foncier : art. 156-I-3° CGI ; déficits antérieurs en micro-foncier : BOI-RFPI-DECLA-10 § 170
+- Déficit LMNP : art. 156-I-1° ter CGI ; BOI-BIC-CHAMP-40-20 § 240-250
 - LMNP : art. 35-I-5° bis CGI
 - LMP : art. 155-IV CGI
 - SCI : art. 8 CGI (transparence)
