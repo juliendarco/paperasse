@@ -103,7 +103,7 @@ En cas de vente d'un lot par un copropriétaire débiteur :
 
 **Opposition** (art. 20 loi 1965) :
 - Le syndic peut faire opposition au versement du prix de vente au vendeur
-- L'opposition doit être notifiée au notaire dans les 15 jours de la notification de la mutation
+- L'opposition est formée par acte extrajudiciaire (commissaire de justice) dans les 15 jours de la réception de l'avis de mutation, en énonçant à peine de nullité le montant et les causes de la créance
 - Le notaire doit verser au syndicat les sommes dues avant de libérer le solde au vendeur
 
 **Pré-état daté** : document que le syndic remet au notaire avant la vente, indiquant les sommes dues par le vendeur.

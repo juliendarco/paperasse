@@ -74,27 +74,36 @@ Pas de délai légal strict, mais la pratique recommande **15 jours** après la 
 
 Le syndic peut **faire opposition au versement du prix de vente** pour garantir le paiement des charges dues par le vendeur.
 
-### Conditions
+### Conditions (art. 20 I, version en vigueur depuis le 11/04/2024)
 
 1. Le vendeur a des **charges impayées**
-2. L'opposition doit être notifiée au notaire **dans les 15 jours** suivant la notification de la mutation au syndic
-3. L'opposition porte sur les sommes dues par le vendeur (charges, provisions, appels travaux)
+2. Le notaire donne **avis de la mutation** au syndic par LRAR **dans les 15 jours à compter du transfert de propriété**, sauf si le vendeur lui a remis un certificat du syndic de moins d'un mois attestant qu'il est libre de toute obligation envers le syndicat
+3. Le syndic forme opposition **par acte extrajudiciaire** (commissaire de justice), au domicile élu, **dans les 15 jours de la réception de l'avis**
+4. **À peine de nullité**, l'opposition énonce le **montant et les causes** de la créance et contient élection de domicile dans le ressort du tribunal judiciaire de la situation de l'immeuble. Ses effets sont limités au montant énoncé
 
 ### Procédure
 
-1. Le notaire notifie le projet de mutation au syndic (LRAR ou voie électronique)
+1. Après le transfert de propriété, le notaire adresse l'avis de mutation au syndic par LRAR
 2. Le syndic vérifie le compte du vendeur
 3. Si des sommes sont dues :
-   - Le syndic notifie l'opposition au notaire dans les 15 jours
-   - Le notaire retient les sommes sur le prix de vente
-   - Le notaire verse au syndicat les sommes dues avant de libérer le solde au vendeur
+   - Le syndic forme opposition par acte de commissaire de justice dans les 15 jours de la réception de l'avis
+   - Le notaire retient les sommes visées ; il les verse au syndicat dès l'accord du syndic et du vendeur, ou, à défaut d'accord, dans les 3 mois de l'opposition régulière, sauf contestation en justice
 4. Si aucune somme n'est due : pas d'opposition, le notaire verse le prix au vendeur
 
 ### Attention
 
-- L'opposition n'est **pas automatique**. Le syndic doit agir dans les 15 jours.
+- L'opposition n'est **pas automatique**. Le syndic doit agir dans les 15 jours de la réception de l'avis.
 - Passé ce délai, le syndic perd son droit d'opposition.
-- L'opposition est **limitée aux sommes exigibles** à la date de la mutation.
+- Une simple lettre au notaire ne vaut pas opposition : il faut un acte extrajudiciaire.
+- L'opposition régulière vaut au profit du syndicat mise en œuvre de l'hypothèque légale de l'art. 19-1.
+
+## Certificat avant la vente (art. 20 II)
+
+Avant l'acte authentique, le notaire notifie au syndic le nom du candidat acquéreur (ou des dirigeants et associés s'il s'agit d'une société), et de leur conjoint ou partenaire de PACS.
+
+- Le syndic délivre **dans le mois** un certificat de moins d'un mois attestant que l'acquéreur n'est pas copropriétaire de l'immeuble ou, s'il l'est, qu'il n'a pas fait l'objet d'une mise en demeure de payer restée infructueuse depuis plus de **45 jours**.
+- Si l'acquéreur copropriétaire n'est pas à jour, le notaire informe les parties que **la vente ne peut pas avoir lieu**.
+- Si un avant-contrat a été signé, l'acquéreur dispose de **30 jours** pour s'acquitter de sa dette ; à défaut, l'avant-contrat est réputé nul et non avenu à ses torts.
 
 ## Notification de Mutation
 
@@ -109,19 +118,20 @@ Le notaire notifie la mutation au syndic (art. 6 décret 1967). Le syndic doit e
 
 ### Répartition des charges
 
-**Principe** : le transfert des charges s'opère au jour de la signature de l'acte authentique (et non du compromis).
+**Règles opposables au syndicat** (décret n° 67-223, art. 6-2, version en vigueur depuis le 25/12/2025) :
 
 | Charges | Qui paie |
 |---------|---------|
-| Provisions appelées avant la vente | Vendeur |
-| Provisions appelées après la vente | Acquéreur |
-| Régularisation de l'exercice en cours | Au prorata temporis (vendeur et acquéreur) |
-| Travaux votés avant la vente | Vendeur (même si les appels sont postérieurs) |
+| Provision exigible du budget prévisionnel | Vendeur |
+| Provisions pour dépenses hors budget prévisionnel (travaux votés, etc.) | Celui qui est copropriétaire **au moment de l'exigibilité** |
+| Trop-perçu ou moins-perçu révélé par l'approbation des comptes | Celui qui est copropriétaire **lors de l'approbation des comptes** |
 | Fonds de travaux (cotisations passées) | Acquises au syndicat, non remboursables |
+
+Le partage au prorata temporis, ou la prise en charge par le vendeur de travaux votés avant la vente, n'est qu'une **convention entre vendeur et acquéreur** dans l'acte : elle est inopposable au syndicat, qui applique les règles ci-dessus.
 
 ### Fonds de travaux et mutation
 
-Les cotisations au fonds de travaux sont **définitivement acquises au syndicat** (art. 14-2 al. 4). Elles ne sont ni remboursées au vendeur ni transférées à l'acquéreur. L'acquéreur commence à cotiser à partir de la date de mutation.
+Les cotisations au fonds de travaux sont **définitivement acquises au syndicat** (art. 14-2-1 III). Elles ne sont ni remboursées au vendeur ni transférées à l'acquéreur. L'acquéreur commence à cotiser à partir de la date de mutation.
 
 ## Checklist Mutation
 
