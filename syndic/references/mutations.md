@@ -141,8 +141,8 @@ Mutation — Lot {{n}} — Vendeur : {{vendeur}} → Acquéreur : {{acquereur}}
 - [ ] Documents obligatoires joints (fiche synthétique, PV AG, règlement, etc.)
 - [ ] État daté établi et transmis au notaire (max 380 EUR TTC)
 - [ ] Vérification compte vendeur (impayés ?)
-- [ ] Opposition notifiée si impayés (délai : 15 jours après notification)
-- [ ] Mutation notifiée par le notaire
+- [ ] Avis de mutation reçu du notaire (LRAR, dans les 15 jours du transfert de propriété)
+- [ ] Opposition formée si impayés : acte extrajudiciaire (commissaire de justice), dans les 15 jours de la réception de l'avis, montant et causes de la créance énoncés
 - [ ] Registre copropriétaires mis à jour
 - [ ] Compte copropriétaire transféré
 - [ ] Acquéreur informé (modalités paiement, prochain appel)
