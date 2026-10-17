@@ -43,7 +43,7 @@ Lot(s) : {{lots}} ({{tantièmes}} tantièmes / {{total_tantièmes}})
 │ Poste                           │ Montant  │
 ├─────────────────────────────────┼──────────┤
 │ Provisions charges courantes    │   XXX,XX │
-│ Fonds de travaux (art. 14-2)   │    XX,XX │
+│ Fonds de travaux (14-2-1)      │    XX,XX │
 │ Travaux votés (si applicable)  │   XXX,XX │
 ├─────────────────────────────────┼──────────┤
 │ TOTAL À RÉGLER                  │   XXX,XX │
