@@ -285,6 +285,12 @@ Ces points sont systématiquement vérifiés par les utilisateurs exigeants — 
 - Seuil LMP : recettes > **23 000 €** ET > 50 % des autres revenus pro du foyer.
 - Déficit LMNP au réel : **non imputable sur le revenu global** (reportable 10 ans sur BIC non pro).
 
+### Pour un déficit foncier (régime réel)
+
+- **Les loyers bruts compensent d'abord les intérêts d'emprunt** (BOI-RFPI-BASE-30-20 § 110). Ne jamais isoler les intérêts du déficit avant d'avoir vérifié s'ils sont couverts par les loyers : seul l'**excédent des intérêts sur les loyers** est cantonné aux revenus fonciers.
+- Le reste du déficit s'impute sur le revenu global dans la limite de **10 700 €** (21 400 € pour certains travaux de rénovation énergétique payés jusqu'au 31/12/2027) ; l'excédent se reporte 10 ans sur les revenus fonciers.
+- Voir l'exemple chiffré de [references/revenus-fonciers-lmnp.md](references/revenus-fonciers-lmnp.md).
+
 ### Pour un arbitrage PFU vs barème
 
 - Chiffrer les deux scénarios systématiquement.
