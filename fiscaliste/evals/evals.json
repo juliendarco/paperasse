@@ -288,6 +288,21 @@
         "Le skill précise que la distinction 1AP vs 1AJ porte sur la nature du revenu (remplacement vs activité), pas sur l'abattement",
         "L'abattement suit le régime des salaires (plancher commun 509 € / plafond commun 14 555 € sur le total salaires + ARE)"
       ]
+    },
+    {
+      "id": 27,
+      "name": "calc-ir-abattement-par-declarant-et-ir-pfu",
+      "prompt": "Nous sommes mariés, sans enfant. Chacun de nous a 150 000 € de salaires (cases 1AJ et 1BJ), et nous avons encaissé 5 000 € de dividendes en 2025, au PFU. Aucun autre revenu, aucune déduction. Quel est notre revenu net imposable et combien allons-nous payer au total (impôt au barème, PFU et prélèvements sociaux) ?",
+      "expected_output": "L'abattement de 10 % est plafonné à 14 555 € pour chaque membre du foyer (CGI art. 83, 3°) : 150 000 − 14 555 = 135 445 € par conjoint, soit un RNI de 270 890 € (et non 285 445 € avec un seul plafond). Impôt au barème 2025 sur 2 parts : environ 78 666 €. Dividendes au PFU : IR forfaitaire de 12,8 % = 640 € (art. 200 A CGI) et prélèvements sociaux de 17,2 % = 860 € (encaissement 2025). Total ≈ 80 166 € avant réductions et crédits. Pas de CEHR (RFR ≈ 275 890 € < 500 000 € pour un couple).",
+      "files": [],
+      "assertions": [
+        "Le skill applique le plafond de 14 555 € à chaque déclarant, et non une seule fois pour le foyer",
+        "Le RNI est d'environ 270 890 €",
+        "Le skill compte l'IR forfaitaire du PFU (12,8 % × 5 000 = 640 €) en plus des prélèvements sociaux",
+        "Les prélèvements sociaux sur les dividendes encaissés en 2025 sont de 17,2 % (860 €)",
+        "Le total avant réductions et crédits est d'environ 80 166 €",
+        "Le skill indique qu'aucune CEHR n'est due"
+      ]
     }
   ]
 }
