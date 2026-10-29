@@ -43,11 +43,22 @@ Impôt annuel sur le patrimoine **immobilier net** du foyer fiscal au **1er janv
 - Dettes liées à travaux sur immeubles taxables
 - Impôts afférents à l'immobilier : taxe foncière, taxe sur les locaux vacants…, et l'**IFI théorique** de l'année (pas l'IFI N-1), droits de succession/donation
 
+### Dettes déductibles partiellement : prêts in fine et sans terme (art. 974, II CGI)
+
+Pour un emprunt **in fine** contracté pour l'achat d'un bien imposable, le passif admis suit un **amortissement fictif** :
+
+`passif admis = capital emprunté − capital × années écoulées depuis la souscription / durée totale (en années)`, soit `capital × années restantes / durée totale`.
+
+Exemple : 300 000 € in fine sur 10 ans, 4 ans écoulés → 300 000 × 6 / 10 = 180 000 € déductibles (et non 300 000 €).
+
+Pour un prêt **sans terme** : capital diminué de **1/20 par année écoulée** depuis la souscription.
+
 ### Dettes NON déductibles
 
 - Dettes personnelles non liées à l'immobilier
-- Emprunts in fine → **amortissement fictif** appliqué (déduction limitée selon un calendrier théorique)
-- Prêts familiaux : non déductibles (art. 974 II CGI)
+- Prêts familiaux (art. 974, III CGI) :
+  - **exclus sans dérogation** s'ils viennent du redevable, de son conjoint, partenaire de PACS, concubin notoire ou de ses enfants mineurs (directement ou via une société interposée) ;
+  - **déductibles** s'ils viennent d'un ascendant, d'un descendant (hors enfant mineur), d'un frère ou d'une sœur, ou d'une société contrôlée par eux, **à condition de justifier du caractère normal du prêt** (terme, échéances, montant, remboursements effectifs).
 
 ### Plafonnement du passif
 
@@ -74,11 +85,11 @@ Entre 1 300 000 € et 1 400 000 € : formule `17 500 − 1,25% × valeur_patri
 
 ## Plafonnement global IR + IFI + PS
 
-**Règle des 75%** : le total IR + IFI + PS ne peut pas dépasser 75% des revenus de l'année N-1.
+**Règle des 75%** (art. 979 CGI) : le total IR + IFI + PS ne peut pas dépasser 75% des revenus de l'année N-1.
 
-Si dépassement → l'IFI est **réduit de l'excédent**.
+Si dépassement → l'IFI est **réduit de l'excédent** (ni imputable sur un autre impôt, ni restituable).
 
-**Stratégie** : optimiser les revenus pris en compte (certains revenus exonérés ne comptent pas) pour maximiser le plafonnement.
+**Revenus pris en compte** : revenus mondiaux N-1 nets de frais, **y compris les revenus exonérés d'IR** ; les plus-values sont retenues sans abattement ni exonération (BOI-PAT-IFI-40-30-10, § 160 à 190). Exemple : 75 000 € de revenus + 5 000 € de plus-value exonérée → seuil = 75 % × 80 000 = 60 000 €.
 
 ## Évaluation des biens
 
@@ -119,7 +130,7 @@ Valeur des parts × fraction immobilière. Possible décote pour illiquidité.
 
 1. **Oublier l'abattement 30% RP** — perte directe
 2. **Inclure un LMP en patrimoine taxable** — alors qu'il peut être exonéré comme bien professionnel
-3. **Emprunt in fine sans amortissement fictif** — redressement probable
+3. **Emprunt in fine sans amortissement fictif** (art. 974, II) — redressement probable
 4. **Évaluer la RP au prix d'achat** au lieu de la valeur vénale actuelle — source de sous-déclaration
 5. **Omettre les SCPI en assurance-vie** — fraction immobilière imposable
 6. **Oublier le plafonnement 75%** — l'IFI peut être réduit si revenus faibles par rapport au patrimoine
@@ -139,6 +150,6 @@ Valeur des parts × fraction immobilière. Possible décote pour illiquidité.
 - Résidence principale : art. 973-I CGI
 - Biens professionnels : art. 975 CGI
 - Passif déductible : art. 974 CGI
-- Plafonnement : art. 979 CGI
+- Plafonnement : art. 979 CGI, BOI-PAT-IFI-40-30-10
 - Barème : art. 977 CGI
 - BOFiP : BOI-PAT-IFI
