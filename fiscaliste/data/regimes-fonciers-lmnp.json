@@ -84,7 +84,7 @@
       "cotisations_location_courte_duree": "Indépendamment du statut LMP, la location meublée de courte durée (clientèle de passage) dont les recettes dépassent 23 000 €/an est soumise aux cotisations sociales (art. L. 611-1, 6° CSS)",
       "ifi": "Biens LMP exonérés d'IFI comme biens professionnels (sous conditions)"
     },
-    "bascule_involontaire": "Attention : passage LMP possible en cas de hausse des recettes meublées OU baisse des autres revenus d'activité. Les pensions de retraite comptent dans ces revenus : un départ en retraite ne fait pas basculer à lui seul. À surveiller annuellement."
+    "bascule_involontaire": "Attention : passage LMP possible en cas de hausse des recettes meublées OU baisse des autres revenus d'activité. Les pensions de retraite comptent dans ces revenus : au départ en retraite, la bascule se produit si les recettes meublées dépassent la pension et les autres revenus d'activité (cas fréquent quand la pension est inférieure à l'ancien salaire). À surveiller annuellement."
   },
 
   "sci_ir": {

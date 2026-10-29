@@ -99,7 +99,7 @@ Voir `data/regimes-fonciers-lmnp.json` → `lmp_vs_lmnp`.
 
 **Location meublée de courte durée** : indépendamment du statut LMP, des recettes > 23 000 €/an rendent les revenus passibles des cotisations sociales (art. L. 611-1, 6° CSS).
 
-**Attention bascule involontaire** : une baisse des autres revenus d'activité (cessation, temps partiel) peut faire basculer en LMP malgré des loyers inchangés. Les pensions de retraite restent comptées : un départ en retraite ne fait pas basculer à lui seul. À surveiller.
+**Attention bascule involontaire** : une baisse des autres revenus d'activité (cessation, temps partiel) peut faire basculer en LMP malgré des loyers inchangés. Les pensions de retraite restent comptées, mais elles sont souvent inférieures à l'ancien salaire : au départ en retraite, la bascule se produit dès que les recettes meublées dépassent la pension et les autres revenus d'activité du foyer. À surveiller.
 
 ## SCI à l'IR
 
