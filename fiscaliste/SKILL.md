@@ -288,7 +288,8 @@ Ces points sont systématiquement vérifiés par les utilisateurs exigeants — 
 ### Pour un déficit foncier (régime réel)
 
 - **Les loyers bruts compensent d'abord les intérêts d'emprunt** (BOI-RFPI-BASE-30-20 § 110). Ne jamais isoler les intérêts du déficit avant d'avoir vérifié s'ils sont couverts par les loyers : seul l'**excédent des intérêts sur les loyers** est cantonné aux revenus fonciers.
-- Le reste du déficit s'impute sur le revenu global dans la limite de **10 700 €** (21 400 € pour certains travaux de rénovation énergétique payés jusqu'au 31/12/2027) ; l'excédent se reporte 10 ans sur les revenus fonciers.
+- Le reste du déficit s'impute sur le revenu global dans la limite de **10 700 €** (rehaussée, sur option, du montant des travaux de rénovation énergétique faisant passer le logement de E/F/G à A-D payés jusqu'au 31/12/2027, dans la limite de **21 400 €**) ; l'excédent se reporte 10 ans sur les revenus fonciers. Si le revenu global est insuffisant, le solde forme un déficit global reportable 6 ans.
+- L'imputation sur le revenu global suppose de **louer nu jusqu'au 31 décembre de la 3e année qui suit l'imputation**, sinon réintégration. Cases 2042 : 4BA (bénéfice), 4BB (déficit sur revenus fonciers), 4BC (déficit sur revenu global), 4BD (déficits antérieurs).
 - Voir l'exemple chiffré de [references/revenus-fonciers-lmnp.md](references/revenus-fonciers-lmnp.md).
 
 ### Pour un arbitrage PFU vs barème
