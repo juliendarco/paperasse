@@ -20,7 +20,9 @@ Voir `data/regimes-fonciers-lmnp.json` → `micro_foncier`.
 
 - **Condition** : revenus fonciers bruts ≤ 15 000 €
 - **Abattement** : 30% automatique
-- **Exclusions** : SCI, monuments historiques, Pinel, Borloo, Malraux, etc.
+- **Recettes brutes** : loyers et recettes accessoires, **hors charges locatives récupérables** (sommes versées par le locataire au titre des charges lui incombant), mais augmentées des dépenses du bailleur mises par convention à la charge du locataire. Source : BOI-RFPI-DECLA-10 § 100.
+- **Exclusions** (CGI art. 32, 2 ; BOI-RFPI-DECLA-10 § 60 à 80) : monuments historiques, Périssol, Besson neuf et ancien, Robien, Robien ZRR, Borloo neuf et ancien, conventions ANAH, Cosse, résidences de tourisme (art. 199 decies EA) et travaux dans les logements touristiques (art. 199 decies F), Loc'Avantages (art. 199 tricies), parts de sociétés pratiquant l'amortissement de l'art. 31 bis, parts de FPI. Voir `micro_foncier.exclusions`. L'exclusion ne vaut que pendant la période où le dispositif est demandé.
+- **Compatibles** : les réductions d'impôt Scellier, Duflot, Pinel, Denormandie et Malraux **n'excluent pas** le micro-foncier (BOI-RFPI-DECLA-10, remarque sous le § 60).
 - **Avantage** : simplicité. Pas de comptabilité.
 - **Inconvénient** : aucun déficit possible. Si vos charges réelles > 30%, vous payez trop d'impôt.
 
