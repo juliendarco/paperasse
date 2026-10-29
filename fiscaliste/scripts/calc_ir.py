@@ -14,7 +14,8 @@ Usage:
 
 Couvre :
     - Abattement 10 % salaires et pensions (salaires : plancher et plafond par
-      déclarant, CGI art. 83, 3°)
+      déclarant, CGI art. 83, 3° ; pensions : plancher par pensionné, plafond
+      par foyer, CGI art. 158, 5-a ; plancher limité au revenu)
     - Barème progressif tranche par tranche
     - Quotient familial (avec plafonnement ; enfants en résidence alternée
       décomptés après les enfants à charge exclusive)
@@ -25,7 +26,7 @@ Couvre :
       lmnp_reel_resultat du foyer.json n'alimente pas la base PS)
     - IR forfaitaire du PFU : 12,8 % des revenus du capital (CGI art. 200 A),
       sauf option globale pour le barème (non calculée par ce script)
-    - CEHR
+    - CEHR (RFR incluant les versements PER déduits, CGI art. 1417, IV)
 
 Ne couvre PAS :
     - Réductions / crédits d'impôt (à retrancher manuellement après)
@@ -59,14 +60,24 @@ def load_json(path):
 def abattement_salaires(brut_1aj, bareme):
     cfg = bareme["abattement_salaires_10pct"]
     abatt = max(cfg["minimum"], min(cfg["maximum"], brut_1aj * cfg["taux"]))
+    # Le plancher ne peut excéder le revenu : net jamais négatif
+    abatt = min(abatt, brut_1aj)
     return round(brut_1aj - abatt)
 
 
-def abattement_pensions(brut_1as, bareme):
+def abattement_pensions(pensions_par_declarant, bareme):
+    """Pensions nettes du foyer (CGI art. 158, 5-a).
+
+    Le minimum s'apprécie par pensionné, limité au montant de sa pension ;
+    le maximum s'applique au total du foyer.
+    """
     cfg = bareme["abattement_pensions_10pct"]
-    # plafond par foyer, pas par personne — laissons l'appelant agréger
-    abatt = max(cfg["minimum"], min(cfg["maximum"], brut_1as * cfg["taux"]))
-    return round(brut_1as - abatt)
+    abatt_par_declarant = [
+        min(brut, max(cfg["minimum"], brut * cfg["taux"]))
+        for brut in pensions_par_declarant if brut
+    ]
+    abatt = min(cfg["maximum"], sum(abatt_par_declarant))
+    return round(sum(pensions_par_declarant) - abatt)
 
 
 # ─────────────────────────────────────────────────────
@@ -270,8 +281,8 @@ def from_foyer(foyer, bareme, pfu_data):
     ]
     net_salaires = sum(abattement_salaires(t, bareme) for t in traitements_par_declarant if t)
 
-    pensions = r.get("pensions_declarant1", 0) + r.get("pensions_declarant2", 0)
-    net_pensions = abattement_pensions(pensions, bareme) if pensions else 0
+    pensions_par_declarant = [r.get("pensions_declarant1", 0), r.get("pensions_declarant2", 0)]
+    net_pensions = abattement_pensions(pensions_par_declarant, bareme) if any(pensions_par_declarant) else 0
 
     # Revenus fonciers : déjà au net (micro post-abattement / réel post-charges).
     fonciers = r.get("revenus_fonciers_reels", 0) + r.get("revenus_fonciers_micro", 0)
@@ -297,9 +308,10 @@ def from_foyer(foyer, bareme, pfu_data):
     option_capital = foyer.get("options_fiscales", {}).get("revenus_capital", "pfu")
     base_pfu_ir = base_ps_placement + base_ps_patrimoine if option_capital == "pfu" else 0
 
-    # RFR approximatif : RNI + revenus du capital taxés au PFU + abattements réintégrés
-    # Simplification : RNI + bases PS
-    rfr_approx = rni + base_ps_placement + base_ps_patrimoine
+    # RFR approximatif : RNI + revenus du capital taxés au PFU + versements PER
+    # déduits, réintégrés au RFR (CGI art. 1417, IV-1°-a). Simplification :
+    # RNI + bases PS + PER
+    rfr_approx = rni + base_ps_placement + base_ps_patrimoine + per
 
     return calc(
         rni=rni,
