@@ -350,10 +350,22 @@ def reduction_dons(rc, rni, cfg):
 
 def fraction_pinel(inv, cfg):
     """Fraction annuelle de la réduction Pinel (art. 199 novovicies) pour un investissement."""
+    manquants = [c for c in ("prix_revient", "engagement_ans", "annee_investissement") if c not in inv]
+    if manquants:
+        raise ValueError(f"Investissement Pinel incomplet : champ(s) manquant(s) {', '.join(manquants)}")
     engagement = str(inv["engagement_ans"])
+    if engagement not in ("6", "9"):
+        raise ValueError(f"Engagement Pinel de {engagement} ans : seuls 6 ou 9 ans sont possibles")
     periode = inv.get("periode", "initiale")
-    rang = {"initiale": 0, "prorogation_1": 1, "prorogation_2": 2}[periode]
+    rangs = {"initiale": 0, "prorogation_1": 1, "prorogation_2": 2}
+    if periode not in rangs:
+        raise ValueError(f"Période Pinel « {periode} » inconnue : initiale, prorogation_1 ou prorogation_2")
+    rang = rangs[periode]
+    if engagement == "9" and rang == 2:
+        raise ValueError("Un engagement Pinel de 9 ans n'a qu'une prorogation (prorogation_2 réservée aux engagements de 6 ans)")
     annee = inv["annee_investissement"]
+    if not 2014 <= annee <= 2024:
+        raise ValueError(f"Investissement Pinel en {annee} hors période 2014-2024 (art. 199 novovicies)")
     if annee <= 2022 or inv.get("taux_maintenu", False):
         tranche = "2014-2022"
     else:

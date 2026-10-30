@@ -93,7 +93,7 @@
     "dons_reports_anterieurs": 0,
 
     "pinel_reductions_annuelles": 0,
-    "_commentaire_pinel": "Fraction de l'année déjà connue (avis précédent, ligne « Invest. Pinel »). Ou détailler pinel_investissements pour la calculer : periode = initiale / prorogation_1 / prorogation_2 ; taux_maintenu = Pinel+ ou QPV acquis en 2023-2024 ; outre_mer = plafond global de 18 000 €",
+    "_commentaire_pinel": "Fraction de l'année déjà connue (avis précédent, ligne « Invest. Pinel »). Ou détailler pinel_investissements pour la calculer : periode = initiale / prorogation_1 / prorogation_2 (cette dernière pour un engagement de 6 ans seulement) ; taux_maintenu = Pinel+ ou QPV acquis en 2023-2024 ; outre_mer = plafond global de 18 000 €",
     "pinel_investissements": [],
     "_exemple_pinel_investissement": { "prix_revient": 250000, "surface_m2": 55, "annee_investissement": 2021, "engagement_ans": 9, "periode": "initiale", "taux_maintenu": false, "outre_mer": false },
 
