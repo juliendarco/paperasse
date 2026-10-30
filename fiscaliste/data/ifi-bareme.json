@@ -42,7 +42,7 @@
     "impots_afferents_immobilier": "Taxe foncière, taxe sur les locaux vacants, droits de succession/donation, IFI théorique de l'année (pas l'IFI N-1) — FAQ impots.gouv.fr « passif de l'IFI »",
     "emprunts_in_fine": "Art. 974, II CGI : passif admis = capital × années restantes / durée totale (capital − capital × années écoulées depuis la souscription / durée totale)",
     "emprunts_sans_terme": "Art. 974, II CGI : capital diminué de 1/20 par année écoulée depuis la souscription",
-    "prets_familiaux": "Art. 974, III CGI : déductibles si le caractère normal du prêt est justifié (ascendant, descendant hors enfant mineur, frère/sœur, société contrôlée par eux) ; exclus sans dérogation s'ils viennent du redevable, de son conjoint, partenaire, concubin ou enfants mineurs",
+    "prets_familiaux": "Art. 974, III CGI : déductibles si le caractère normal du prêt est justifié (ascendant, descendant hors enfant mineur, frère/sœur, société contrôlée par le redevable seul ou conjointement avec son foyer fiscal ou son cercle familial, au sens de l'art. 150-0 B ter, III, 2°, BOI-PAT-IFI-20-40-30 § 50) ; exclus sans dérogation s'ils viennent du redevable, de son conjoint, partenaire, concubin ou enfants mineurs",
     "non_deductible": [
       "Dettes personnelles non liées à l'immobilier",
       "Prêts du redevable, de son conjoint, partenaire de PACS, concubin notoire ou enfants mineurs (art. 974, III, 1° CGI)",

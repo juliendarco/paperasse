@@ -58,7 +58,7 @@ Pour un prêt **sans terme** : capital diminué de **1/20 par année écoulée**
 - Dettes personnelles non liées à l'immobilier
 - Prêts familiaux (art. 974, III CGI) :
   - **exclus sans dérogation** s'ils viennent du redevable, de son conjoint, partenaire de PACS, concubin notoire ou de ses enfants mineurs (directement ou via une société interposée) ;
-  - **déductibles** s'ils viennent d'un ascendant, d'un descendant (hors enfant mineur), d'un frère ou d'une sœur, ou d'une société contrôlée par eux, **à condition de justifier du caractère normal du prêt** (terme, échéances, montant, remboursements effectifs).
+  - **déductibles** s'ils viennent d'un ascendant, d'un descendant (hors enfant mineur), d'un frère ou d'une sœur, ou d'une société que le redevable contrôle, seul ou conjointement avec son foyer fiscal ou son cercle familial (art. 150-0 B ter, III, 2° ; BOI-PAT-IFI-20-40-30 § 50), **à condition de justifier du caractère normal du prêt** (terme, échéances, montant, remboursements effectifs).
 
 ### Plafonnement du passif
 
