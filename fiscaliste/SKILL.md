@@ -1,7 +1,7 @@
 ---
 name: fiscaliste
 metadata:
-  last_updated: 2026-05-30
+  last_updated: 2026-10-29
 includes:
   - data/**
   - references/**
@@ -188,6 +188,8 @@ python fiscaliste/scripts/calc_ir.py --rni 126000 --parts 3 --parts-base 2
 ```
 
 Le script applique : barème 2025, quotient familial avec plafonnement, décote, PS différenciés selon la nature du revenu (18,6 % sur revenus du patrimoine dès 2025 ; 17,2 % sur produits de placement 2025 ; 17,2 % inchangé sur AV/foncier nu/SCPI/PEL-CEL), CEHR. Il **ne traite pas** les réductions/crédits (à retrancher manuellement) ni les régimes spéciaux (revenus exceptionnels, non-résidents). Pour la CDHR (plancher 20 % sur RFR > 250/500 k€), voir [references/cas-speciaux.md](references/cas-speciaux.md) — calculée automatiquement par l'administration.
+
+**Réductions, crédits et solde** (exception à la phrase précédente) : si le foyer.json contient le bloc `reductions_credits` (et/ou `prelevement_a_la_source`), le script poursuit au-delà de l'impôt après décote : réductions dons (75 % / 66 %, limite de 20 %, excédent reportable), Pinel (fraction annuelle selon l'année, la durée et la prorogation), scolarité, crédits emploi à domicile et garde d'enfants, plafonnement global des niches (10 000 € / 18 000 €, art. 200-0 A), IR 12,8 % du PFU, impôt net, puis **solde** après retenue à la source, acomptes et **avance RICI de janvier** (art. 1665 bis). Ordre d'imputation de l'art. 197, I-5. Sans ces blocs, la sortie est inchangée. Détails : [references/deductions-reductions-credits.md](references/deductions-reductions-credits.md).
 
 Pour la fraîcheur des données : `python fiscaliste/scripts/update_data.py`.
 
