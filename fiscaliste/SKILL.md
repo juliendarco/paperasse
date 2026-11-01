@@ -1,7 +1,7 @@
 ---
 name: fiscaliste
 metadata:
-  last_updated: 2026-05-30
+  last_updated: 2026-11-01
 includes:
   - data/**
   - references/**
@@ -209,7 +209,8 @@ Pour la fraîcheur des données : `python fiscaliste/scripts/update_data.py`.
 | IFI | [references/ifi.md](references/ifi.md) |
 | PER et épargne retraite | [references/per.md](references/per.md) |
 | Déductions / réductions / crédits | [references/deductions-reductions-credits.md](references/deductions-reductions-credits.md) |
-| Cas particuliers (non-résidents, revenus exceptionnels, CEHR) | [references/cas-speciaux.md](references/cas-speciaux.md) |
+| Départ de France, non-résidents (année du départ, taux minimum, foncier, PS 7,5 %, ex-RP, exit tax) | [references/non-residents.md](references/non-residents.md) |
+| Cas particuliers (revenus exceptionnels, CEHR, DOM, impatriation) | [references/cas-speciaux.md](references/cas-speciaux.md) |
 | **Sources officielles (CGI, BOFiP, simulateurs DGFIP)** | [references/sources-officielles.md](references/sources-officielles.md) |
 
 **Redirections (hors scope) :**
